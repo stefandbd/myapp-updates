@@ -125,12 +125,3 @@ Looking at the response, the list of instruments should be used as the datasourc
 
 In particular, the `name` can be used for the name of the instrument, and the `currentPrice.value` for the price.
 For the pushed detail view, you are free to display any additional fields.
-
-### Assignment
-In sum, the following features should be present in your app:
-
-- [ ] List of all instruments is the initial view of the app
-- [ ] Poll the endpoint and show increasers and decreasers compared to the previous dataset
-- [ ] On selecting an instrument, push a view with more instrument details
-
-The code can be pushed to this repository
