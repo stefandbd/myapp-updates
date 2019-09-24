@@ -1,0 +1,51 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expect": "^24.3.1",
+    "fetch-mock": "^7.3.1",
+    "prop-types": "^15.7.2",
+    "react": "16.6.3",
+    "react-dom": "^16.8.3",
+    "react-native": "0.58.6",
+    "react-native-chart-kit": "^2.2.1",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-linear-gradient": "^2.5.3",
+    "react-native-material-tabs": "^3.8.1",
+    "react-native-svg": "^9.2.4",
+    "react-native-text-avatar": "^1.0.3",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.2",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga": "^1.0.2",
+    "redux-storage": "^4.1.2",
+    "redux-storage-engine-reactnativeasyncstorage": "^1.0.5",
+    "redux-thunk": "^2.3.0",
+    "remote-redux-devtools": "^0.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.53.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
